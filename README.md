@@ -1,6 +1,6 @@
 # Long-Form Factuality in Large Language Models
 
-This is the official code release accompanying our paper ["Long-form factuality in large language models"](https://arxiv.org/abs/2403.18802).
+This is the official code release accompanying our paper "Long-form factuality in large language models".
 This repository contains:
 
 1. **LongFact**: A prompt set of 2,280 fact-seeking prompts requiring long-form responses.
@@ -87,19 +87,6 @@ To run all unit tests, use the following command.
 
 ```bash
 python -m unittest discover -s ./ -p "*_test.py"
-```
-
-## Citing this work
-
-If you find our code useful, please cite our [paper](https://arxiv.org/abs/2403.18802):
-
-```bibtex
-@misc{wei2024long,
-  title={Long-form factuality in large language models},
-  author={Wei, Jerry and Yang, Chengrun and Song, Xinying and Lu, Yifeng and Hu, Nathan and Huang, Jie and Tran, Dustin and Peng, Daiyi and Liu, Ruibo and Huang, Da and Du, Cosmo and Le, Quoc V.},
-  year={2024},
-  url={https://arxiv.org/abs/2403.18802},
-}
 ```
 
 ## License and disclaimer
